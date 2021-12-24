@@ -1,0 +1,51 @@
+.home-newsletter {              /* Es el estilo del newsletter */
+    padding: 80px;
+    margin-top: 150px;
+    background: $color-main;
+   .container{
+        .row{
+            .col-sm-12{
+                .single{
+                    max-width: 650px;
+                    margin: 0 auto;
+                    text-align: center;
+                    position: relative;
+                    z-index: 2; 
+                    h2{
+                        text-transform: uppercase;
+                        margin-bottom: 10px; 
+                        padding-bottom: 10px; 
+                    }
+                    .contenido{
+                        margin-bottom: 50px;
+                    }
+                    h3{
+                        padding-bottom: 10px;
+                        margin-bottom: 10px;  
+                    }
+                    .input-group{
+                        margin-left: 60px;
+                        .form-control{
+                            height: 50px;
+                            margin-top: 20px;
+                            background: rgba(255, 255, 255, 0.6);
+                            border-color: transparent;
+                            border-radius: 20px 0 0 20px; 
+                        }
+                        .form-control:focus{
+                            box-shadow: none;
+                            border-color: #243c4f; 
+                        }
+                        .btn{
+                            min-height: 50px; 
+                            border-radius: 0 20px 20px 0;
+                            background: #243c4f;
+                            color: #fff;
+                        }
+                    }                    
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,28 @@
+.col{                           /*Son los estilos que se le asignaron a las columnas */
+    background-color: whitesmoke;
+}
+
+@media (min-width: 200px) and (max-width:707px) {
+    .col{
+        text-align: center;
+    }   
+}
+
+#navegador-columna{
+    color: black;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+    display: inline-block;    
+}
+
+@media (min-width: 200px) and (max-width:707px){
+    #navegador-columna{
+        font-size: 10px;
+    }
+}
+
+.col-sin-fondo{
+    color: white;
+}
+

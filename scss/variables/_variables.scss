@@ -1,0 +1,20 @@
+//Colores//
+$color-main: whitesmoke;
+$color-secondary: #cfc6c6;
+$color-negro: black;
+
+//Fuentes//
+$fuente-titulos: 'Bebas Neue', cursive;
+$fuente-subtitulos: 'Cuprum', sans-serif;
+
+//Operaciones//
+$ancho1:100px;
+
+//Mixin
+
+@mixin size($ancho,$alto) {
+    height: $alto;
+    width: $ancho;   
+}
+
+$margen: 50px;

@@ -1,0 +1,67 @@
+//Condicionales//
+$fuente: 50px;
+
+h2{             /* Es el estilo de los títulos secundarios */
+    font-family: $fuente-titulos;
+    @if $fuente == 50px{
+        font-size: 50px;
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0px;    
+    } @else if $fuente == 60px{
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0px;         
+    }
+}
+
+
+h3{
+    font-family: $fuente-titulos;
+    font-size: 50px;
+    padding: 50px;
+}
+
+
+h4{
+    font-family: $fuente-subtitulos;
+    color: black;
+    padding: 30px;
+}
+
+h5{
+    font-family: $fuente-subtitulos;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+
+@media (min-width:200px) and (max-width:700px){
+    h2{
+        font-size: 30px;
+    }
+    h5{
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h6{
+        font-size: 20px;
+    }
+}
+
+h6{
+    font-size: 30px;
+    color: black;
+    font-family: 'Cuprum', sans-serif;
+    padding-left: 50px;
+}
+

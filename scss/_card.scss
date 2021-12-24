@@ -1,0 +1,74 @@
+.card{                                      /* Son los estilos de las cards */
+    @include size(350px,800px);    
+    .card-body{
+        .card-title{
+            font-family: $fuente-subtitulos;
+            font-size: 40px;
+            color: $color-negro;
+            padding: 30px;
+            text-align: center;
+        }
+        .card-text{
+            font-size: $fuente-titulos;
+            color: $color-negro;
+            padding: 10px;
+            text-align: justify;
+        }    
+
+    }
+}    
+
+@media (min-width:200px) and (max-width:700px){
+    .card{                                     
+        .card-body{
+            .card-title{
+                font-size: 20px;
+                padding: 0px;
+            }
+            .card-text{
+                padding-left: 20px;
+                padding-right: 20px;
+            }    
+        }
+    } 
+}
+
+.card-body-margen{
+    margin: 10px;
+    margin-left: 0px;
+    padding-top: 90px ;
+    padding-bottom: 10px;
+    padding-right: 40px ; 
+}
+
+
+@media (min-width:200px) and (max-width:700px){
+    .card-body-margen{
+        margin: 0px;
+        padding-top: 50px ;
+        padding-left: 0px;;
+        padding-bottom: 0px;
+        padding-right: 60px ; 
+        margin-right: 10px;
+    }   
+}
+
+.carta{
+    @include size(600px,380px);
+}
+
+.carta1{
+    @include size(600px,380px);
+    margin-left: 250px;
+}
+
+
+@media (min-width:200px) and (max-width:700px){
+    .carta1{
+        margin-left: 10px;
+    }
+}
+
+.fila{
+    height: 500px;
+}

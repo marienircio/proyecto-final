@@ -1,0 +1,28 @@
+nav{                /* Es el estilo del navegador */
+    background-color: #cfc6c6 ;
+    ul{
+        li{
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+            font-family: 'Cuprum', sans-serif; 
+        }
+    }
+}
+
+
+@media (min-width: 200px) and (max-width:707px){
+    nav{
+        background-color: #cfc6c6 ;
+        ul{
+            display: flex;
+            flex-direction: column;
+            li{
+                text-decoration: none;
+                color: black;
+                font-size: 30px;
+                font-family: 'Cuprum', sans-serif; 
+            }
+        }
+    }
+}
